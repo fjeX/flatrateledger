@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Commit messages are public too: run the same scrub over the message.
+exec "$(git rev-parse --show-toplevel)/scripts/scrub-check.sh" --message "$1"

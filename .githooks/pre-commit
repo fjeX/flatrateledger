@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Blocks a commit that would put private details into this public repo.
+exec "$(git rev-parse --show-toplevel)/scripts/scrub-check.sh" --staged
