@@ -20,7 +20,11 @@ So when hours go missing from a paycheck, the tech has nothing to push back with
 
 I'm a flat-rate technician, and I taught myself to code to build the tool I wanted at work: my own record of my work, one no employer controls.
 
-I designed it, built it, and run it in production on my own. A small group of technicians at and around my shop use it.
+I wanted to build something that directly supports technicians and the way they actually work, day to day: on their feet, between jobs, with a phone in their pocket and no time to spare. Every feature has to earn its place in that setting.
+
+I run my own homelab, so I hosted Flat Rate Ledger there in production myself before officially moving it to the cloud. Running it on my own hardware taught me what keeping a live service healthy really takes: backups, monitoring, recovering from outages. Those habits came with it to the cloud.
+
+I designed it, built it, and run it on my own. A small group of technicians at and around my shop use it.
 
 ## What it does
 
@@ -91,11 +95,15 @@ Real people trust this app with their pay records, so most of the work goes into
 
 I build Flat Rate Ledger with AI coding assistants, the way a shop uses good diagnostic equipment. The scan tool doesn't fix the car; the tech does.
 
-I decide what gets built and why, starting from problems I deal with at work. I design how each feature behaves, push on edge cases until the design holds, review what ships, and test it on my own pay before anyone else uses it. The checks above exist because I don't take any code on faith, whoever wrote it.
+**It starts on the shop floor.** I take real problems I run into at work and turn them into features. I also listen to other techs: what they wish they had, and what gets in their way during a shift. Their feedback, plus the bug reports and feature requests sent from inside the app, is what starts every design loop.
+
+**Then I design and decide.** I work out how each feature should behave, then push on the edge cases until the design holds up: the RO that spans two days, the paycheck that comes in short, the shop that reuses RO numbers. I decide what ships and what waits.
+
+**Then I verify.** I review what ships and test it on my own pay before anyone else uses it. The checks above exist because I don't take any code on faith, whoever wrote it. That's the same rule as in the shop: you don't sign off on a repair until you've road-tested it.
 
 ## Why the source is private
 
-Flat Rate Ledger is a live product, and real technicians keep their pay records in it. I keep the code private, but I'm happy to walk through any part of it on a call.
+Flat Rate Ledger is an active, growing product, not a finished class project. Technicians keep their real pay records in it, and keeping the code closed is part of how I protect them and the product itself. This repository shows what it does and how it's built, without handing over the product.
 
 ---
 
