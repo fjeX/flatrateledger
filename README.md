@@ -89,7 +89,13 @@ Real people trust this app with their pay records, so most of the work goes into
 - **One email a morning.** A QA bot uses the app every night like a real tech. Health checks, backups, uptime and errors all write down their results, and a 6 AM digest shows only what needs me. A quiet morning is four lines.
 - **I moved it to the cloud without losing anything.** Flat Rate Ledger started on a server I ran at home. In October 2026 I moved it to Vercel and Supabase Cloud with a rehearsed cutover, and every record came across intact.
 
-→ [Architecture diagram](media/diagrams/architecture.md)
+### Go deeper
+
+- [**Architecture**](docs/architecture.md): the stack, how data moves, the security model, environments
+- [**Engineering practices**](docs/engineering-practices.md): testing layer by layer, database changes, releases, with code excerpts
+- [**Operations**](docs/operations.md): the morning digest, backups, the nightly QA bot, monitoring
+- [**Product decisions**](docs/product-decisions.md): the calls that shaped the app, and why
+- [**Where it's going**](docs/roadmap.md): True Time and what's next
 
 ## How I build
 
