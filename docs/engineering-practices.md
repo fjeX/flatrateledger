@@ -22,7 +22,7 @@ Before every release, CI starts the app and photographs every page: phone and de
 
 The first version of this photographed a test account with live data, and it failed constantly. The account gained repair orders every night, so pages kept getting taller with no code change at all. One page grew from 2,580 px to 4,495 px. A check that fails for no reason gets ignored, and then it isn't a check.
 
-The fix was **sample mode**: the app serves frozen sample data instead of the database. But frozen data wasn't enough. The data held still while "days left in this pay period" counted down underneath it. So the clock is frozen too.
+The fix was **sample mode**: the app serves frozen sample data instead of the database. But frozen data wasn't enough. The data held still while "days left in this pay period" counted down underneath it. So the clock is frozen too. → [The full story](case-studies/visual-tests-that-failed-on-a-schedule.md)
 
 ### Snippet 1: freezing the clock without touching app code
 

@@ -95,6 +95,7 @@ Real people trust this app with their pay records, so most of the work goes into
 - [**Engineering practices**](docs/engineering-practices.md): testing layer by layer, database changes, releases, with code excerpts
 - [**Operations**](docs/operations.md): the morning digest, backups, the nightly QA bot, monitoring
 - [**Product decisions**](docs/product-decisions.md): the calls that shaped the app, and why
+- [**Case studies**](docs/case-studies/): four real problems, from symptom to fix to lesson
 - [**Where it's going**](docs/roadmap.md): True Time and what's next
 
 ## How I build

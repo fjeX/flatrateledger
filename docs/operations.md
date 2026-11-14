@@ -34,7 +34,7 @@ The digest is fully deterministic: no part of the email is generated text, so it
 
 Every step either succeeds or fails loudly. A backup that's missing photos is a failed backup, not a partial success.
 
-The automation server itself is imaged every night by the hypervisor, and the digest checks that job too. That check exists because it once failed silently for weeks. → [case study](case-studies/)
+The automation server itself is imaged every night by the hypervisor, and the digest checks that job too. That check exists because the job once failed silently for weeks.
 
 ## The nightly QA bot
 
@@ -50,7 +50,7 @@ Anything it can't safely fix becomes an **escalation**: a row in an incident log
 
 ## Watching from outside
 
-On-server monitoring can't report its own death. Once, the automation server lost its network address and sat there "healthy", running every check, unable to tell anyone, for 9 hours. → [case study](case-studies/)
+On-server monitoring can't report its own death. Once, the automation server lost its network address and sat there "healthy", running every check, unable to tell anyone, for 9 hours. → [The server that went quiet for 9 hours](case-studies/server-that-went-quiet.md)
 
 So the important watchers live elsewhere:
 
